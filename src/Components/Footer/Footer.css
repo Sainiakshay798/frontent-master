@@ -1,0 +1,20 @@
+.footerMain {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    height: 400px;
+  }
+  
+  .footerMain > div {
+    flex: 1;
+  margin-left: 70px;
+  margin-top: 70px;
+  margin-bottom:50px ;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  

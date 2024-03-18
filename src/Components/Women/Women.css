@@ -1,0 +1,36 @@
+.womenMain {
+    padding: 20px;
+  }
+  
+  .womenHeader {
+    text-align: center;
+  }
+  
+  .womenHeader h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .WomenImages {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .WomenImages .wImage1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .WomenImages .wImage1 img {
+    width: 20%;
+   
+    margin: 30px;
+    transition: transform 0.3 ease-in-out;
+  }
+  .WomenImages .wImage1 img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    cursor: pointer;
+  }
+
+ 
