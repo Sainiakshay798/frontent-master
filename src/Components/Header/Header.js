@@ -3,7 +3,7 @@ import { CgProfile } from "react-icons/cg";
 import { IoSearch } from "react-icons/io5";
 import { FaCartArrowDown } from "react-icons/fa6";
 import './Header.css';
-
+import { Link } from 'react-router-dom';
 function Header() {
   return (
     <div className='headerMain'>
@@ -29,34 +29,71 @@ function Header() {
       <div className='headerBottom'>
       <div class="menu">
     
-    Women
+      <Link to="/women">
+      <span>Women</span>
+    </Link>
 
       <div class="submenu">
-        <p>JUTTIS</p>
-        <p>HEELS</p>
-        <p>KOLHAPAIRS</p>
-        <p>SANDALS</p>
-        <p>MULES</p>
+      <Link to="/juttis">
+      <p>JUTTIS</p>
+    </Link>
+
+    <Link to="/heels">
+    <p>HEELS</p>
+  </Link>
+
+  <Link to="/kolha">
+  <p>KOLHAPAIRS</p>
+</Link>
+
+<Link to="/sandals">
+<p>SANDALS</p>
+</Link>
+
+<Link to="/mules">
+<p>MULES</p>
+</Link>
+
       </div>
     </div>
 
     <div class="menu2">
-    <span>NEEDLEDUST X ABHINAV MISHRA</span>
+    <Link to="/needledust-x-abhinav-mishra">
+          <span>NEEDLEDUST X ABHINAV MISHRA</span>
+        </Link>
     <div class="submenu2">
-      <p>JUTTIS</p>
-      <p>HEELS</p>
-      <p>PURSES</p>
-      <p>MAN</p>
-      <p>VIEW All</p>
+    <Link to="/juttis">
+    <p>JUTTIS</p>
+  </Link>
+  <Link to="/heels">
+  <p>HEELS</p>
+</Link>
+<Link to="/purses">
+<p>PURSES</p>
+</Link>
+<Link to="/man">
+<p>MAN</p>
+</Link>
+<Link to="/view">
+<p>VIEW ALL</p>
+</Link>
     </div>
   </div>
 
-        <span>PURSES</span>
-        <span>MAN</span>
-        <span>KIDS</span>
+  <Link to="/purses">
+  <span>Purses</span>
+</Link>
+<Link to="/man">
+<span>Man</span>
+</Link>
+<Link to="/kids">
+<span>Kids</span>
+</Link>
        
         <div class="menuGifting">
-        <span>GIFTING</span>
+        <Link to="/gifting">
+          <span>Gifting</span>
+        </Link>
         <div class="submenuGifting">
           <p>GIFT SET</p>
           <p>HIS & ME GIFT SETS</p>
@@ -65,7 +102,9 @@ function Header() {
           </div>
       </div>
 
-        <span>CELEBRITIES</span>
+      <Link to="/celebrities">
+      <span>Celebrities</span>
+    </Link>
         <img src='https://sandbyshirin.com/cdn/shop/files/SAN_200x.png?v=1614949992' alt='not found' />
       </div>
     </div>

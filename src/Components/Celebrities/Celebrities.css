@@ -1,0 +1,36 @@
+.celMain {
+    padding: 20px;
+  }
+  
+  .celHeader {
+    text-align: center;
+  }
+  
+  .celHeader h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .celImages {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .celImages .cImage1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .celImages .cImage1 img {
+    width: 27%;
+   
+    margin: 30px;
+    transition: transform 0.3 ease-in-out;
+  }
+  .celImages .cImage1 img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    cursor: pointer;
+  }
+
+ 

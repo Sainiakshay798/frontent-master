@@ -113,4 +113,20 @@
 }
 
 
+/* Style for the links */
+.headerBottom a {
+  text-decoration: none; /* Remove default underline */
+  color: black; /* Default color */
+}
+
+/* Change color and add underline on hover */
+.headerBottom a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Change color of visited links */
+.headerBottom a:visited {
+  color: black;
+}
 

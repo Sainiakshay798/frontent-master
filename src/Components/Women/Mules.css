@@ -1,34 +1,34 @@
-.needMain {
+.mulesMain {
     padding: 20px;
   }
   
-  .needHeader {
+  .mulesHeader {
     text-align: center;
   }
   
-  .needHeader h1 {
+  .mulesHeader h1 {
     font-size: 24px;
     margin-bottom: 20px;
   }
   
-  .needImages {
+  .mulesImages {
     display: flex;
     justify-content: center;
   }
   
-  .needImages .nImage1 {
+  .mulesImages .mulesImage1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
   
-  .needImages .nImage1 img {
+  .mulesImages .mulesImage1 img {
     width: 20%;
    
     margin: 30px;
     transition: transform 0.3 ease-in-out;
   }
-  .needImages .nImage1 img:hover {
+  .mulesImages .mulesImage1 img:hover {
     transform: scale(1.1); /* Zoom effect on hover */
     cursor: pointer;
   }

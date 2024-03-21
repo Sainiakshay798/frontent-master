@@ -1,53 +1,29 @@
-/* Navbar container */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Logo container */
-  .nav-logo img {
-    height: 40px; /* Adjust height as needed */
-  }
-  
-  /* Logo and cart container */
-  .nav-logo-cart {
-    display: flex;
-    align-items: center;
-  }
-  
-  /* Navigation menu */
-  .nav-menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .nav-menu li {
-    margin-right: 20px;
-    font-size: 16px;
-    color: #333333;
-  }
-  
-  /* Login button */
-  .nav-logo-cart button {
-    margin-right: 20px;
-    padding: 8px 20px;
-    border: none;
-    border-radius: 4px;
-    background-color: #007bff; /* Adjust color as needed */
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  /* Cart icon */
-  .nav-logo-cart img {
-    height: 30px; /* Adjust height as needed */
-    margin-left: 20px;
-  }
-  
+.navbarMain {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.navbarContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarParagraph {
+  margin: 0;
+}
+
+.transitioning {
+  animation-play-state: paused;
+}
+
+.shopHere {
+  margin-left: 10px; /* Adjust margin as needed */
+  cursor: pointer;
+  color: white; /* Adjust color as needed */
+}
+
+.shopHere:hover {
+  text-decoration: underline;
+}

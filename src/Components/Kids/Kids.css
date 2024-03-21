@@ -1,0 +1,30 @@
+.kidsHeader {
+    text-align: center;
+  }
+  
+  .kidsHeader h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .kidsImages {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .kidsImages .kImage1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .kidsImages .kImage1 img {
+    width: calc(25% - 60px); /* Adjusted width for 4 images per row with margin */
+    margin: 15px; /* Adjusted margin for spacing between images */
+    transition: transform 0.3s ease-in-out;
+  }
+  .kidsImages .kImage1 img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    cursor: pointer;
+  }
+
