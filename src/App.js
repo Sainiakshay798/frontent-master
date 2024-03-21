@@ -23,8 +23,9 @@ function App() {
       <div>
         <Navbar />
         <Header />
+        <Carousel />
         <Routes>
-        <Route path="/#" element={<Carousel></Carousel>} />
+      
           <Route path="/women" element={<Women />} />
           <Route path="/needledust-x-abhinav-mishra" element={<Needledust />} />
           <Route path="/purses" element={<Purses />} />
